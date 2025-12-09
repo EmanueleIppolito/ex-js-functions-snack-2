@@ -29,3 +29,22 @@ const quadrato = num => num * num;
 
 //Snack 2 Fatto
 
+//Snack 3 
+
+/*Crea una funzione eseguiOperazione
+Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri 
+e una funzione operatore (callback). 
+La funzione deve eseguire l'operazione fornita sui due numeri.*/
+
+function eseguiOperazione(num1, num2, callback){
+    return callback(num1,num2);
+    }
+
+//Snack 3 Fatto
+
+//Snack 4
+
+/*Crea un generatore di funzioni creaTimer
+Scrivi una funzione creaTimer che accetta un tempo (in ms)
+e restituisce una nuova funzione che avvia un setTimeout per stampare "Tempo scaduto!".*/
+
